@@ -659,7 +659,7 @@ input {
   color: var(--title-color);
 }
 
-.shop__discount {
+.shop__discounts {
   color: var(--first-color);
   font-size: var(--smaller-font-size);
   text-decoration: line-through;
