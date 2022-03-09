@@ -105,36 +105,3 @@ function scrollUp() {
 }
 
 window.addEventListener('scroll', scrollUp);
-
-
-// ==== Light box ====
-
-// ==== Questions Accordion ====
-// const accordionItem = document.querySelector('.accordion-open');
-const accordionItem = document.querySelectorAll('.questions__item'); 
-
-accordionItem.forEach((item) => {
-    const accordionHeader = item.querySelector(".questions__header")
-
-    accordionHeader.addEventListener('click', () => {
-        const openItem = document.querySelector('.accordion-open');
-
-        if (openItem && openItem !== item) {
-            toggleItem(openItem)
-        } 
-        toggleItem(item)
-    })
-})
-
-const toggleItem = (item) => {
-    const accordionContent = item.querySelector('.quesitons__content');
-
-    if (item.classList.contains('accordion-open')) {
-        accordionContent.removeAttribute('style');
-        item.classList.remove('accordion-open');
-    } else {
-        accordionContent.style.height = accordionContent.scrollHeight + 'px';
-        item.classList.add('accordion-open')
-    }
-
-}
