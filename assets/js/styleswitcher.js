@@ -1,5 +1,3 @@
-
-
 // ==== Style switcher ====
 const styleSwitcherToggle = document.querySelector('.style__switcher-toggle');
 styleSwitcherToggle.addEventListener('click', () => {
