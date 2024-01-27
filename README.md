@@ -1,9 +1,12 @@
-# clothes_E-commerce
+# Clothes E-commerce
 
-### In this project you will find a clothes E-commerce with a lot of features,
+![image](https://github.com/WajdWael/clothes_E-commerce/assets/81550668/cc36f97d-f1fa-41f7-866c-a808db8ca11e)
+[Demo - Preview Website](https://clothes-e-commerce-red.vercel.app/)
 
-[Demo](https://wajd789.github.io/clothes_E-commerce/)
+---
 
-#### I hope you enjoy it.
+# Tools ⛏️:
+- HTML
+- CSS
+- JavaScript
 
-> By: Wajd Wael
